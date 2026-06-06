@@ -1,4 +1,4 @@
-# AI-Powered Banking Customer Intelligence & Decision Support System
+# Banking Customer Intelligence & Decision Support System
 
 ## Project Overview
 
@@ -87,22 +87,27 @@ The project uses simulated banking data consisting of:
 
 ---
 
-# Project Architecture
+## Project Architecture
 
-Data Generation
-↓
-PostgreSQL Database
-↓
-SQL Analytics
-↓
-Python Analysis
-↓
-Business Frameworks
-↓
+```text
+Customer Data
+      ↓
+PostgreSQL
+      ↓
+SQL Analysis
+      ↓
+Python Analytics
+      ↓
+RFM Segmentation
+      ↓
+AI Recommendation Engine
+      ↓
 Power BI Dashboard
-↓
-Insights & Recommendations
-
+      ↓
+Business Insights
+      ↓
+Decision Support
+```
 ---
 
 # Analytical Frameworks Used
@@ -133,18 +138,17 @@ Customer segments include:
 
 ---
 
-## Funnel Analysis
+### Campaign Performance Funnel
 
-Campaign Performance Funnel:
-
+```text
 Impressions
-↓
+     ↓
 Clicks
-↓
+     ↓
 Conversions
+```
 
-Used to identify customer drop-off points.
-
+ Used to identify customer drop-off points.
 ---
 
 ## Root Cause Analysis
@@ -157,15 +161,17 @@ Used to determine drivers of:
 
 ---
 
-## BEAM Framework
+### BEAM Framework
 
+```text
 Business Problem
-↓
+        ↓
 Evidence
-↓
+        ↓
 Analysis
-↓
-Measure
+        ↓
+Measure / Recommendation
+```
 
 Used to convert data findings into business actions.
 
